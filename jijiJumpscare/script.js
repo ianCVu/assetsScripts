@@ -2,8 +2,8 @@ const screen = document.createElement("img");
 screen.src = "https://github.com/ianCVu/assetsScripts/blob/main/jijiJumpscare/jijiJumpscare.png?raw=true";
 screen.style.position = "fixed";
 screen.style.zIndex = 999999999;
-screen.style.height = "100%;";
-screen.style.width = "100%";
+screen.style.height = window.innerHeight + "px";
+screen.style.width = window.innerWidth + "px":
 screen.style.left = "0px";
 screen.style.top = "0px";
 const audio = document.createElement("audio");
